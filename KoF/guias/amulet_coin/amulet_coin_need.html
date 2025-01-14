@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farm Amulet Coin PokeMMO</title>
     <link rel="icon" href="../../imagens/kof_icon.png" type="image/png">
-        
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
@@ -102,8 +102,33 @@
             text-align: center;
             font-size: 1.2em;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            margin: 30px 33%;
+            margin: 2% 33%;
             text-align: center; 
+        }
+
+        /* Media Query for smaller screens */
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            .requirements {
+                margin-left: 0;
+            }
+            .image-container {
+                flex: 1;
+                margin-top: 20px;
+            }
+            nav a {
+                float: none;
+                width: 100%;
+                text-align: left;
+                padding: 10px;
+            }
+            .balloon {
+                margin: 20px auto;
+                padding: 10px 20px;
+                width: auto;
+            }
         }
     </style>
 </head>
